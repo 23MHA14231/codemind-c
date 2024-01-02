@@ -3,9 +3,8 @@
 int main()
 {
     float cp,sp,los,per;
-    scanf("%f%f",&cp,&sp);
+    scanf("%f%f%f",&cp,&sp);
     los=cp-sp;
     per=(los/cp)*100;
     printf("%.2f",per);
-    return 0;
 }
